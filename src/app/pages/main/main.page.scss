@@ -1,0 +1,49 @@
+ion-content {
+    --background: var(--ion-color-danger); /* Fondo rojo */
+    --color: var(--ion-color-primary-contrast); /* Texto en color de contraste primario (generalmente blanco) */
+    --padding-top: 20px;
+  }
+  
+  ion-item {
+    font-size: 14px;
+    --background: var(--ion-color-light); /* Fondo claro */
+    --color: var(--ion-color-dark); /* Texto en negro */
+  
+    ion-icon {
+      color: var(--ion-color-dark); /* Iconos en negro */
+    }
+  
+    &.active {
+      --color: var(--ion-color-warning); /* Texto en amarillo cuando está activo */
+      
+      ion-icon {
+        color: var(--ion-color-warning); /* Iconos en amarillo cuando está activo */
+      }
+    }
+  }
+  
+  ion-menu {
+    --width: 250px; /* Ancho del menú */
+    --border-color: transparent; /* Color del borde del menú */
+  }
+  
+  /* Opcional: ajusta el contenido del menú para que no se vea cortado */
+  ion-menu-content {
+    --ion-safe-area-top: 10px; /* Ajuste del área segura en la parte superior */
+  }
+  
+  h4 {
+    margin-top: 5px;
+    font-weight: bold;
+  }
+  
+ 
+  ion-avatar{
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+.empty-icon{
+  font-size: 140px;
+  
+}
